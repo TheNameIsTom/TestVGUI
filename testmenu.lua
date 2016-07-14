@@ -1,4 +1,4 @@
-if SERVER then return end -- Gay
+if SERVER then return end -- No more server side
 
 
 --[[
@@ -13,7 +13,7 @@ if SERVER then return end -- Gay
                                          \_/__/ 
 ]]--
 
-MenuFont = "Roboto Lt" --Changes the whole font of the menu (install this font first you cuck)
+MenuFont = "Roboto Lt" --Changes the whole font of the menu
 LowEndMode = false -- For terrible PC's that cant draw allot of stuff
 
 --End Of Config
@@ -21,11 +21,6 @@ LowEndMode = false -- For terrible PC's that cant draw allot of stuff
 --  DONT EDIT BELOW HERE!!!!!!
 OpenDelay = nil
 IsOpen = nil
-
-styl = {}
-styl.r = 0
-styl.g = 0
-styl.b = 0
 
 surface.CreateFont( "TitleFont", {
 	font = MenuFont,
