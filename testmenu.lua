@@ -22,6 +22,7 @@ LowEndMode = false -- For terrible PC's that cant draw allot of stuff
 OpenDelay = nil
 IsOpen = nil
 
+--Fonts
 surface.CreateFont( "TitleFont", {
 	font = MenuFont,
 	size = 40,
